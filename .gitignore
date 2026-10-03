@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.astro/
+.npm-cache/
+worker/node_modules/
+worker/.wrangler/
+worker/.dev.vars
+server/landing-bridge-config.php
+landing-desktop.png
+landing-form-preview.png
+
+# Local credentials and generated archives
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+
+# Rendered design checks; source images stay in their asset folders
+/homepage-*.png
+/design-preview/soft-*.png
+
+# Local tools and temporary publication files
+/.live-build/
+/.publish-yavi/

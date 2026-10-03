@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Виктория Ярмолинская — визуальный макет сайта</title>
+  <link rel="preload" as="image" href="assets/hero.webp" fetchpriority="high">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--
+  THESIS: возвращение к своей силе через живые образы воды, света и движения.
+  OWN-WORLD: молочный, морской синий, лаванда, шалфей и шафран; Playfair для заголовков,
+  Montserrat для основного текста, Caveat для личных надписей. Без декоративных линий.
+  STORY: узнать своё состояние, увидеть возможности, понять подход и выбрать формат.
+  FIRST VIEWPORT: морской портрет справа, обещание и два действия слева.
+  FORM: продолжение выбранного пользователем мягкого фотоцентричного макета.
+  Это статичный визуальный макет всей главной для согласования дизайна.
+  -->
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero__photo" fetchpriority="high" src="assets/hero.webp" alt="Иллюстративный портрет женщины у моря" width="1672" height="941">
+      <div class="hero__veil"></div>
+      <header class="header wrap">
+        <div class="brand" aria-label="Виктория Ярмолинская">
+          <span class="brand__name">Виктория Ярмолинская</span>
+          <span class="brand__sub">Коуч твоей силы и самореализации</span>
+        </div>
+        <div class="header__menu" aria-hidden="true"><span>Подход</span><span>С чем я работаю</span><span>Обо мне</span></div>
+        <span class="header__menu-mobile" aria-hidden="true"><i></i><i></i></span>
+      </header>
+      <div class="hero__content wrap">
+        <div class="hero__text">
+          <span class="eyebrow eyebrow--light">Сила быть собой</span>
+          <h1 id="hero-title">Ты можешь<br> гораздо <em>больше.</em></h1>
+          <p class="hero__question">Вопрос — куда сейчас уходит твоя сила?</p>
+          <p class="hero__lead">Помогаю вернуть доступ к энергии, внутренней опоре и собственному потенциалу — чтобы выбирать, действовать, реализовываться и создавать ту жизнь, которую действительно хочется жить.</p>
+          <div class="hero__actions" aria-hidden="true">
+            <span class="button button--sun">Личный коучинг <b>↗</b></span>
+            <span class="button button--glass">Бизнес-коучинг <b>↗</b></span>
+          </div>
+          <p class="hero__meta">Тело <i>·</i> психика <i>·</i> состояние <i>·</i> стратегия <i>·</i> действие</p>
+        </div>
+        <p class="hero__hand">В гармонии<br> с собой.<br> В потоке<br> жизни.</p>
+      </div>
+    </section>
+
+    <section class="recognition" aria-labelledby="recognition-title">
+      <div class="wrap">
+        <p class="eyebrow">Узнаёшь себя?</p>
+        <h2 id="recognition-title">Возможно, ты уже давно знаешь,<br> что можешь <em>больше</em></h2>
+        <div class="voices" aria-label="Знакомые мысли">
+          <p>«Я знаю, что могу больше —<br> почему тогда я так не живу?»</p>
+          <p>«Я вроде справляюсь,<br> но почему мне так тяжело?»</p>
+          <p>«Раньше было<br> больше энергии».</p>
+          <p>«Я понимаю, чего хочу,<br> но не делаю».</p>
+          <p>«Вроде всё есть,<br> а огня нет».</p>
+          <p>«Я много могу, но больше не хочу бесконечно доказывать, что я могу».</p>
+        </div>
+        <div class="recognition__turn">
+          <div class="recognition__image">
+            <img src="assets/horizon.webp" alt="Тёплый свет над морским горизонтом" width="1672" height="941">
+            <span class="recognition__image-note">Больше жизни.<br> Больше тебя.</span>
+          </div>
+          <div class="recognition__answer">
+            <p class="eyebrow">Мой взгляд</p>
+            <h3>Я не вижу здесь<br> недостатка силы.</h3>
+            <p>Я вижу человека, у которого силы много — но слишком большая её часть сейчас уходит на то, чтобы выдерживать, контролировать, соответствовать, бороться с собой или удерживать то, что давно перестало работать.</p>
+            <p>Моя задача — не сделать тебя сильнее.</p>
+            <p class="recognition__hand">А вернуть тебе твою силу.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="requests" aria-labelledby="requests-title">
+      <div class="wrap">
+        <p class="eyebrow">Три точки входа</p>
+        <div class="section-heading"><h2 id="requests-title">С чем ко мне приходят</h2></div>
+        <div class="request-grid">
+          <article class="request-card request-card--sea">
+            <div class="request-card__image"><img src="assets/horizon.webp" alt="Открытый морской горизонт" width="1672" height="941"><span>01.</span></div>
+            <div class="request-card__body">
+              <h3>Я могу больше.<br> Но почему-то стою на месте</h3>
+              <p>Ты умная. Способная. Многое уже сделала. Но есть ощущение, что живёшь значительно ниже собственного потенциала.</p>
+              <p class="request-card__quote">«Я как будто себя где-то потеряла. И хочу вернуть».</p>
+              <div class="request-card__answer">Мы возвращаем контакт с желаниями, силой и той частью тебя, которая хочет создавать и двигаться.</div>
+            </div>
+          </article>
+          <article class="request-card request-card--sage">
+            <div class="request-card__image"><img src="assets/olive.webp" alt="Оливковые листья в тёплом солнечном свете" width="1536" height="1024"><span>02.</span></div>
+            <div class="request-card__body">
+              <h3>Я всё могу.<br> Но я больше не вывожу</h3>
+              <p>Ты привыкла справляться. Работа. Дети. Деньги. Быт. Люди. Решения. Ответственность.</p>
+              <p class="request-card__quote">«Если не я — то кто?»</p>
+              <div class="request-card__answer">Вернуть ресурс, освободить силу и снова захотеть жить и действовать.</div>
+            </div>
+          </article>
+          <article class="request-card request-card--lavender">
+            <div class="request-card__image"><img src="assets/crocus.webp" alt="Лавандовый цветок крупным планом" width="1536" height="1024"><span>03.</span></div>
+            <div class="request-card__body">
+              <h3>Отношения забирают<br> слишком много меня</h3>
+              <p>Можно быть сильной и самостоятельной — и при этом отдавать огромное количество энергии отношениям.</p>
+              <p class="request-card__quote">Пытаться быть понятой. Ждать реакции. Доказывать. Спасать.</p>
+              <div class="request-card__answer">Возвращаем тебя к себе: к границам, желаниям, выбору и телу.</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="meaning" aria-labelledby="meaning-title">
+      <div class="wrap">
+        <h2 id="meaning-title">Твоя боль —<br> не твоя <em>идентичность.</em></h2>
+        <div class="meaning__story">
+          <p>Ты можешь прийти ко мне после развода. В выгорании. В страхе. В конфликте. В ощущении бессмысленности. В точке, где старое больше не работает.</p>
+          <div><p>Но мы не будем бесконечно строить жизнь вокруг того, что с тобой произошло.</p><p class="meaning__turn">Для меня кризис — не конечная точка. Это место, от которого можно оттолкнуться.</p></div>
+        </div>
+        <div class="meaning__opening">
+          <img src="assets/horizon.webp" alt="Солнечный свет открывает морской горизонт" width="1672" height="941" loading="lazy">
+          <div class="meaning__opening-copy"><p>Мы берём опыт. Возвращаем из него ресурс.<br> Освобождаем связанную там энергию.</p><p>И задаём гораздо более интересный вопрос:</p><h3>Что теперь становится<br> для тебя возможным?</h3></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="course" id="course" aria-labelledby="course-title">
+      <img class="course__scene" src="assets/course-background.webp" alt="" width="1536" height="1024" loading="lazy">
+      <div class="wrap course__grid">
+        <div class="course__copy">
+          <p class="eyebrow">Бесплатный мини-курс</p>
+          <h2 id="course-title">Три шага<br> к себе</h2>
+          <p>3 видео × 7 минут, которые помогут вернуть контакт с собой и начать жить из своей силы.</p>
+          <span class="button button--lavender" aria-hidden="true">Получить доступ <b>→</b></span>
+          <ul class="course__steps">
+            <li><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M37 8C17 8 8 19 10 30c2 10 14 12 21 4 6-7 6-17 6-26Z"/><path d="M13 40 30 17"/></svg><span>Услышать<br> себя</span></li>
+            <li><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 13c6-6 12-6 18 0s12 6 17 0M7 24c6-6 12-6 18 0s12 6 17 0M7 35c6-6 12-6 18 0s12 6 17 0"/></svg><span>Вернуть<br> ресурс</span></li>
+            <li><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="10"/><path d="M24 3v6m0 30v6M3 24h6m30 0h6M9 9l4 4m22 22 4 4M9 39l4-4m22-22 4-4"/></svg><span>Начать<br> действовать</span></li>
+          </ul>
+        </div>
+        <figure class="course__art"><img src="assets/course-book.webp" alt="Обложка мини-курса «Три шага к себе»" width="1024" height="1536" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <section class="personal" aria-labelledby="personal-title">
+      <div class="wrap personal__grid">
+        <figure class="personal__photo"><img src="assets/freedom.webp" alt="Иллюстративный образ свободы: женщина и лавандовая ткань у моря" width="1122" height="1402" loading="lazy"><figcaption class="hand">Свобода<br> быть собой</figcaption></figure>
+        <div class="personal__copy">
+          <p class="eyebrow">Личный коучинг · 8 встреч</p>
+          <h2 id="personal-title">Выбор <em>жить</em></h2>
+          <p class="section-lead">Не ещё лучше справляться.<br> А снова выбирать свою жизнь.</p>
+          <p>8 индивидуальных встреч для тех, кто чувствует:</p>
+          <div class="personal__voices"><p>«Старая жизнь закончилась.<br> А новая ещё не началась».</p><p>«Вроде всё нормально, но я как будто использую не всю свою жизнь».</p></div>
+          <p>За время работы мы разбираемся, куда уходит энергия, что удерживает тебя в старых сценариях и внутренних конфликтах, возвращаем контакт с собой и переводим это в конкретные решения и действия.</p>
+          <p>Не только: «Я всё понимаю».</p>
+          <p class="personal__result">Я понимаю, чего хочу <span>→</span><br> выбираю <span>→</span> действую.</p>
+          <span class="button button--sun" aria-hidden="true">Подробнее о программе <b>↗</b></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="business" aria-labelledby="business-title">
+      <div class="wrap">
+        <div class="business__intro">
+          <div><p class="eyebrow">Бизнес-коучинг</p><h2 id="business-title">Бизнес тоже<br> растёт <em>из силы</em></h2><p class="business__statement">Коучинг +<br> предпринимательское мышление.</p></div>
+          <div class="business__copy"><p class="section-lead">Иногда бизнес упирается не в маркетинг. И не в отсутствие ещё одной стратегии.</p><p>Он упирается в точку, из которой собственник принимает решения.</p><p>Когда слишком много энергии уходит на операционку, тревогу, контроль, сомнения, отношения с командой или необходимость постоянно что-то доказывать — бизнес начинает отражать состояние своего владельца.</p><p>Я сама предприниматель и много лет работаю с бизнесом, поэтому на бизнес-сессии мы можем одновременно видеть:</p></div>
+        </div>
+        <div class="business__lens"><span>Цифры</span><span>Стратегию</span><span>Решения</span><span>Человека, который<br> их принимает</span></div>
+        <div class="business__bottom">
+          <div><h3>С какими вопросами<br> можно прийти</h3><ul class="business__requests"><li>Рост остановился.</li><li>Не понимаю, куда двигать бизнес дальше.</li><li>Слишком много держится на мне.</li><li>Есть идеи, но я их не реализую.</li><li>Нужно принять сложное решение.</li><li>Хочу расти, но не ценой себя и своей жизни.</li></ul></div>
+          <figure class="business__image"><img src="assets/olive.webp" alt="Оливковая ветвь в лучах солнца" width="1536" height="1024" loading="lazy"><figcaption><h3>Деньги<br> без выгорания.</h3><span class="hand">Масштаб — из опоры,<br> а не из надрыва.</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="money" aria-labelledby="money-title">
+      <div class="wrap money__panel">
+        <img class="money__image" src="assets/money.webp" alt="Тёплый натюрморт с гранатом, чашей и оливковой ветвью" width="1536" height="1024" loading="lazy">
+        <div class="money__copy"><p class="eyebrow">Денежный тест</p><h2 id="money-title">А куда утекает твой<br> <em>денежный потенциал?</em></h2><p>Можно больше работать. Улучшать продукт. Изучать продажи. Строить новые воронки. И всё равно снова оказываться примерно в одной денежной точке.</p><p>Потому что иногда ограничение находится не в бизнес-модели, а в сценарии, из которого ты создаёшь деньги.</p><p><strong>Пройди денежный тест</strong> и посмотри, какие установки и привычные сценарии могут влиять на твои отношения с деньгами, доходом и ростом.</p><span class="button button--sun" aria-hidden="true">Пройти денежный тест <b>↗</b></span><p class="money__meta">Бесплатно · несколько минут · результат сразу</p></div>
+      </div>
+    </section>
+
+    <section class="formats" aria-labelledby="formats-title">
+      <div class="wrap"><h2 id="formats-title">Можно начать<br> <em>с одной встречи</em></h2><p class="section-lead">Не обязательно сразу идти в длительную работу.</p>
+        <div class="format-grid">
+          <article class="format"><h3>Разовая<br> коуч-сессия</h3><p class="format__price">400 ₪ <span>/</span> 10 000 ₽</p><p>Когда есть конкретный вопрос, решение или ситуация, с которой хочется разобраться.</p><span class="format__action" aria-hidden="true">Выбрать этот формат ↗</span></article>
+          <article class="format format--lavender"><h3>Мастер-<br> сессия</h3><p class="format__price">700 ₪ <span>/</span> 30 000 ₽</p><p>Глубокая работа с конкретным дискомфортом или повторяющимся состоянием.</p><p>Когда ты уже многое понимаешь головой, но: «Я всё понимаю. Но меня всё равно цепляет».</p><p>И хочется изменить не только мысли о ситуации, а саму внутреннюю реакцию на неё.</p><span class="format__action" aria-hidden="true">Выбрать этот формат ↗</span></article>
+          <article class="format format--sage"><h3>Стратегическая<br> бизнес-сессия</h3><p class="format__price">700 ₪ <span>/</span> 30 000 ₽</p><p>Когда нужно посмотреть на бизнес сверху, увидеть настоящую точку ограничения и собрать конкретную стратегию дальнейших действий.</p><p class="format__result">Ясность → решение → план.</p><span class="format__action" aria-hidden="true">Выбрать этот формат ↗</span></article>
+        </div>
+        <article class="format-program"><div><p class="eyebrow">Программа · 8 встреч</p><h3>Выбор жить</h3></div><p>Для системной работы, когда вопрос уже не про одну ситуацию, а про то, как ты хочешь жить дальше.</p><span class="button button--lavender" aria-hidden="true">Посмотреть программу <b>↗</b></span></article>
+      </div>
+    </section>
+
+    <section class="approach" id="approach" aria-labelledby="approach-title">
+      <div class="wrap">
+        <div class="approach__opening">
+          <h2 id="approach-title">Почему я работаю<br> не только <span>с мыслями</span></h2>
+          <div class="approach__intro">
+            <p>Очень многие мои клиенты приходят с одной и той же точкой:</p>
+            <p class="approach__voices"><span>«Я знаю».</span><span>«Я понимаю».</span><span>«Я всё про себя уже разобрала».</span></p>
+            <p class="approach__insight">Но понимание ещё не означает изменение.</p>
+          </div>
+        </div>
+        <div class="approach__levels"><p>Поэтому я работаю на нескольких уровнях:</p><ol>
+          <li><span>1</span><div><h3>Сознание</h3><p>Увидеть, что действительно происходит.</p></div></li>
+          <li><span>2</span><div><h3>Эмоции и психика</h3><p>Перестать автоматически воспроизводить старую реакцию.</p></div></li>
+          <li><span>3</span><div><h3>Тело</h3><p>Вернуть доступ к состоянию и ресурсу.</p></div></li>
+          <li><span>4</span><div><h3>Идентичность</h3><p>Выйти из привычного представления о том, «какая я» и «как у меня бывает».</p></div></li>
+          <li><span>5</span><div><h3>Действие</h3><p>Перенести изменения в реальные решения, отношения, деньги, бизнес и жизнь.</p></div></li>
+        </ol></div>
+        <div class="approach__closing">
+          <img src="assets/water.webp" alt="" width="1536" height="1024" loading="lazy">
+          <div class="approach__closing-copy"><p>Мне важен не бесконечный процесс работы над собой.</p><p class="approach__statement">Мне интересно, что становится возможным<br> в твоей жизни после этой работы.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" aria-labelledby="about-title">
+      <div class="wrap about__grid">
+        <div class="about__copy"><p class="eyebrow">Обо мне</p><h2 id="about-title">Я знаю, что такое сила.<br> И знаю, что такое<br> <em>потерять к ней доступ.</em></h2><p class="section-lead">Я — Виктория Ярмолинская,<br> коуч твоей силы и самореализации.</p><p>За моей спиной — профессиональный спорт, предпринимательство, создание собственного бизнеса, многолетняя работа с людьми, коучинг, телесные и психологические инструменты.</p><p>В моей жизни тоже были точки, в которых привычная реальность разрушалась и приходилось собирать следующую версию жизни.</p><p>Но именно поэтому сегодня мне гораздо интереснее не вопрос: «Почему со мной это произошло?»</p><p class="about__question">А вопрос:<br> <span class="hand">«Что я могу создать из этой точки?»</span></p><p>Я умею видеть в человеке не только его сегодняшнее состояние. Я держу вниманием его потенциальность — то, кем он может стать и какую жизнь способен создать, когда перестанет расходовать свою силу на борьбу с собой.</p></div>
+        <figure class="about__photo"><img src="assets/portrait.webp" alt="Иллюстративный портрет женщины на морском берегу" width="1024" height="1536" loading="lazy"><figcaption class="hand">Больше жизни.<br> Больше тебя.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="questions" aria-labelledby="questions-title">
+      <div class="wrap"><h2 id="questions-title">Возможно, ты сейчас<br> <em>думаешь…</em></h2><div class="questions__grid">
+        <article><h3>«Я и так всё<br> про себя понимаю».</h3><p>Отлично. Тогда нам не придётся тратить месяцы на объяснение тебе твоей жизни. Вопрос в другом: изменилось ли от этого понимания то, как ты живёшь?</p></article>
+        <article><h3>«Наверное, я могу<br> разобраться сама».</h3><p>Скорее всего, можешь. Ты вообще многое можешь сама.</p><p>Вопрос не в способности. Вопрос — сколько ещё времени и энергии ты хочешь на это потратить.</p></article>
+        <article><h3>«У меня сейчас нет ресурса<br> ещё и на работу над собой».</h3><p>Именно поэтому моя работа — не ещё один проект, который нужно хорошо выполнить.</p><p>Мы не добавляем нагрузку. Мы ищем, где ты уже теряешь силы, и начинаем возвращать их тебе.</p></article>
+        <article><h3>«А вдруг опять<br> ничего не изменится?»</h3><p>Поэтому для меня недостаточно инсайта или красивого разговора.</p><p>Изменение должно становиться видимым в жизни: в решениях, действиях, отношениях, состоянии, бизнесе, способности выбирать иначе.</p></article>
+        <article class="questions__last"><h3>«Мне страшно что-то менять.<br> Вдруг станет только хуже?»</h3><div><p>Мы не разрушаем жизнь ради изменений.</p><p>Мы смотрим, что действительно твоё, что уже исчерпало себя и где появляется следующий шаг, который ты готова сделать сейчас.</p></div></article>
+      </div></div>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+      <img class="closing__image" src="assets/movement.webp" alt="Женщина в морской воде движется навстречу солнечному свету" width="1536" height="1024" loading="lazy">
+      <div class="wrap closing__inner"><div class="closing__copy"><h2 id="closing-title">У тебя уже<br> <em>есть сила.</em></h2><p>Возможно, сейчас она уходит на то, чтобы справляться. Доказывать. Терпеть. Контролировать. Бороться с собой. Оставаться там, откуда давно хочется двигаться дальше.</p><p class="section-lead">Давай вернём её туда,<br> где она действительно нужна.</p><p>В твою жизнь. В твоё тело. В твои отношения.<br> В твою реализацию. В твоё дело.</p><p>И посмотрим, что ты можешь создать из этой точки.</p><span class="button button--sun" aria-hidden="true">Выбрать формат работы <b>↗</b></span></div><span class="hand closing__hand">Жизнь,<br> в которой есть ты</span></div>
+    </section>
+    <footer class="footer"><div class="wrap footer__inner"><div class="brand"><span class="brand__name">Виктория Ярмолинская</span><span class="brand__sub">Коуч твоей силы и самореализации</span></div><span class="hand">Свобода быть собой</span><p>Смысл · энергия · гармония · реализация</p></div></footer>
+    <div class="preview-end">Визуальный макет главной страницы для согласования</div>
+  </main>
+</body>
+</html>
